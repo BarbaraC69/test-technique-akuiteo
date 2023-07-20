@@ -1,0 +1,56 @@
+form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	div, mat-form-field {
+		flex: 1;
+		align-items: center;
+
+		display: flex;
+		justify-content: center;
+	}
+
+	.title {
+		flex-direction: column;
+
+		div {
+			font-style: italic;
+			font-size: 0.7em;
+		}
+	}
+
+	.count {
+		flex: 1;
+	}
+
+	.gender {
+		display: flex;
+		justify-content: center;
+
+		mat-checkbox {
+			width: 150px;
+		}
+	}
+
+	.container {
+        display: flex;
+        align-items: center;
+    }
+
+	.error-message {
+		color: red;
+		font-size: 14px;
+		position: absolute;
+		top: 37%;
+		left: 61.4%;
+		transform: translate(-50%);
+	  }
+
+	  .button-golden:hover{
+		background-color: goldenrod;
+	  }
+
+	.actions {
+	}
+}
